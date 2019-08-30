@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    transition: all 0.6s ease-out;
+}
+
+#mask {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(35, 31, 29);
+    opacity: 0.9;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    z-index: 100000;
+    padding: 20px;
+    box-sizing: border-box;
+    pointer-events: none;
+}
+
+.left-info {
+    flex: 1;
+    /* background-color: skyblue; */
+    position: relative;
+
+}
+
+.right-info {
+    flex: 1;
+    /* background-color: pink; */
+    position: relative;
+}
+
+/* 更多的旋转动画样式 */
+#more {
+    width: 46px;
+    height: 46px;
+    background-color: #fff;
+    border-radius: 23px;
+    /* top: 0px;
+    left: 0px; */
+    box-sizing: border-box;
+    position: fixed;
+    left: 40px;
+    top: 40px;
+    /* pointer-events: none; */
+    z-index: 10000001;
+
+}
+
+.rotatePic {
+    width: 20px;
+    height: 3px;
+    position: absolute;
+    left: 13px;
+    pointer-events: none;
+}
+
+
+#trans1 {
+    top: 18px;
+}
+
+#trans2 {
+    top: 22px;
+    transition: all 0.6s;
+}
+
+#trans3 {
+    top: 26px;
+}
+
+.index-logo {
+    margin-top: 138px
+}
+
+.index-address {
+    font-family: TheinhardtRegular;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    opacity: 1;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    /* margin-top: 100px; */
+}
+
+#meetWords {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Georgia;
+    margin-top: 10px;
+    color: white;
+}
+
+#copyright {
+    font-family: TheinhardtRegular;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    opacity: 1;
+    bottom: 0;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+/* 结束 */
+
+/* 负一屏 */
+#nav-background {
+    background-color: rgb(93, 95, 94);
+    padding: 20px 20px;
+    box-sizing: border-box;
+}
+
+#nav-left {
+    position: relative;
+    width: 200px;
+    height: 100%;
+    float: left;
+    /* background-color: red; */
+}
+
+#nav-logo {
+    margin-top: 138px;
+}
+
+#nav-address {
+    font-family: TheinhardtRegular;
+    font-size: 4px;
+    color: #b9bfbb;
+    text-decoration: none;
+    opacity: 1;
+    bottom: 0;
+    position: absolute;
+    left: 0;
+}
+
+#nav-right {
+    float: left;
+    margin-left: 117px;
+}
+
+#nav-nav {
+    font-size: 14px;
+    color: rgb(185, 191, 187);
+    font-family: Georgia;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+#nav-ul {
+    margin-top: 105px;
+}
+
+#nav-ul li a {
+    text-decoration: none;
+    color: #b9bfbb;
+    font-size: 28px;
+    font-family: Georgia;
+    font-weight: 900
+}
+
+#nav-ul li {
+    height: 34px;
+    box-sizing: border-box;
+}
+
+#nav-special-li {
+    margin-top: 25px;
+}
+
+#nav-ul li a:hover {
+    color: white;
+}
+
+
+/* 标题样式 */
+#title {
+    font-family: Georgia;
+    font-size: 34px;
+    font-weight: 900;
+    margin-top: 100px;
+}
+
+.addTranslate {
+    transform: translateY(-10px);
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+.removeTranslate {
+    transform: translateY(-10px);
+    opacity: 0;
+    transition: all 0.5s;
+}
